@@ -9,13 +9,13 @@ Introduction to github
 
 # Lesson 2 - Recap
 
-Introduction to python  
-Basic matrix operations  
-Pose of a Rigid body  
+Introduction to python  - Python_recap.ipynb
+Basic matrix operations  - matrixexercise.py  
+Pose of a Rigid body  - RigidBody.py  
 
 # Lesson 3 - Rigid body 
 
-Rotation Matrices and Elementary Rotations  
-Euler Angles & Angle-Axis representation
-Qaternion - intro  
-Pybullet installation  
+Rotation Matrices and Elementary Rotations  - Rotation.py  
+Euler Angles & Angle-Axis representation - Euler.py  
+Qaternion - intro  - quaternion.py  
+Pybullet installation - Robot.py  
