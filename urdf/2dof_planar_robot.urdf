@@ -68,8 +68,8 @@
       </geometry>
     </collision> -->
   </link>
-<!-- 
-  <link name="ee"/> -->
+
+  <link name="ee"/>
 
   <joint name="base_joint" type="fixed">
     <parent link="world"/>
@@ -95,11 +95,11 @@
     <dynamics damping="50" /> 
   </joint>
   
-  <!-- <joint name="joint3" type="fixed">
+  <joint name="joint3" type="fixed">
     <parent link="link2"/>
     <child link="ee"/>
-    <origin xyz="1 0 0" rpy="0 0 0"/>
-  </joint> -->
+    <origin xyz="0 0 1" rpy="0 0 0"/>
+  </joint>
 
 </robot>
 
