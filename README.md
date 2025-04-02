@@ -23,7 +23,7 @@ Pybullet installation - Robot.py
 # Lesson 5-8 Forward kinematics, DH parameters, Inverse kinematics
 
 IK 
-Analytical ik showed on the 2dof approach - 2dofAnalytical.py 
-Jacobian Pseudoinverse - PseudoinverseIK.py 
-Damped Least Squares IK method - dls_method.py 
+Analytical ik showed on the 2dof approach - 2dofAnalytical.py  
+Jacobian Pseudoinverse - PseudoinverseIK.py  
+Damped Least Squares IK method - dls_method.py  
   
