@@ -38,7 +38,7 @@ def numerical_ik(robot_id, end_effector_index, target_pos, joint_indices, max_it
         # Update joint angles
         for i, idx in enumerate(joint_indices):
             p.resetJointState(robot_id, idx, joint_states[i] + d_theta[i])
-            # time.sleep(1/10)
+            time.sleep(1/10)
         p.stepSimulation()
 
 if __name__ == "__main__":
